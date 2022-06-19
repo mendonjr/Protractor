@@ -1,0 +1,84 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "i-am-going-to-validate-the-website-functionaities;calculator-add-functionality-testing",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Calculator Add Functionality Testing",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I will launch \"calculator\" website",
+            "match": {
+              "location": "..\\stepDefinations\\steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1412000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I add two numbers \"3\" and \"5\"",
+            "match": {
+              "location": "..\\stepDefinations\\steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4209000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": []
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The output displayed must be eight",
+            "match": {
+              "location": "..\\stepDefinations\\steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4120000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AngularTesting",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "i-am-going-to-validate-the-website-functionaities",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "I am going to validate the website functionaities",
+    "tags": [],
+    "uri": "..\\test\\demo.feature"
+  }
+]
